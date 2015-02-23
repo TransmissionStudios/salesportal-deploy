@@ -1,5 +1,5 @@
 name: Salesportal Deploy
 description: 'Sets the site UUID to a consistent value'
 type: module
-version: 8.x
+core: '8.x'
 package: Salesportal
