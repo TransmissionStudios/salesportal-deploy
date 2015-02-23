@@ -15,7 +15,7 @@ function salesportal_deploy_install() {
   // instances of a codebase will have the same uuid, enabling us to
   // sync these instances via the config management system.
   // See also https://www.drupal.org/node/2133325
-  mysite_deploy_set_uuid('e732b460-add4-47a7-8c00-e4dedbb42911');
+  salesportal_deploy_set_uuid('e732b460-add4-47a7-8c00-e4dedbb42911');
   for ($i = 8001; $i < 9000; $i++) {
     $candidate = 'salesportal_deploy_update_' . $i;
     if (function_exists($candidate)) {
